@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-content {
+  display: flex;
+}
+
+.App-sidebar {
+  flex: 0 0 300px;
+  border-left: 1px solid rgb(236, 236, 236);
+  background-color: #F7F7F7;
+}
+
+.App-console {
+  text-align: left;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.App-header {
+  flex: 1;
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.warning {
+  color: orange;
+}
+
+.correctResult {
+  color: green;
+  font-weight: bold;
+}
+
+.wrongResult {
+  color: red;
+  font-weight: bold;
+}
+
+ul li {
+  text-align: left;
+}
+
+sidebar ul {
+  padding: 0px;
+}
+
+sidebar ul li {
+  text-align: left;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  list-style-type: none;
+  border-bottom: 1px solid black;
+}
